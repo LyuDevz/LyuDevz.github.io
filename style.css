@@ -14,7 +14,7 @@ li {
 }
 
 body {
-  width: 60%;
+  width: 65rem;
   margin: 0 auto;
 }
 /* 상단바 */
@@ -213,7 +213,6 @@ body {
 .footer {
   align-items: center;
   justify-content: center;
-
   height: 3rem;
   bottom: 0;
   background-color: #f6f6f6;
