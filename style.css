@@ -219,6 +219,6 @@ body {
   background-color: #f6f6f6;
   z-index: 100;
   width: 60%;
-  height: 3.9rem; /* 내용물에 따라 알맞는 값 설정 */
+  height: 3.9rem;
   position: absolute;
 }
