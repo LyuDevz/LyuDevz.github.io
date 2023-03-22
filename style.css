@@ -1,5 +1,7 @@
 @import url(./reset.css);
 @import url(./scroll.css);
+@media (min-width: 992px) {
+}
 
 li {
   color: #fcf6f5;
@@ -58,13 +60,6 @@ body {
 .menu ul {
   padding-left: 0px;
 }
-
-/* #about {
-  background-color: rgb(0, 0, 0);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-} */
 
 /* 스크롤당 배경 */
 
