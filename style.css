@@ -27,7 +27,7 @@ body {
   font-size: 22px;
   font-style: italic;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 50px;
   position: fixed;
   top: 0;
   left: 0;
@@ -41,7 +41,7 @@ body {
 }
 
 .menu a:hover {
-  transform: translateY(-10px);
+  transform: translateY(-7px);
 }
 .menu li {
   margin: 30px;
@@ -69,28 +69,28 @@ body {
 /* 스크롤당 배경 */
 
 .list:nth-child(2) {
-  background-color: #8aaae5;
+  background-color: #7b9acc;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
 
 #about {
-  background-color: #46d2d2;
+  background-color: #bad7e9;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
 
 #like {
-  background-color: #98ebdc;
+  background-color: #bdcdd6;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
 
 #contact {
-  background-color: #b594cd;
+  background-color: #e9f8f9;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -216,7 +216,7 @@ body {
 
   height: 3rem;
   bottom: 0;
-  background-color: #bbb;
+  background-color: #f6f6f6;
   z-index: 100;
   width: 60%;
   height: 3.9rem; /* 내용물에 따라 알맞는 값 설정 */
