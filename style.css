@@ -1,0 +1,224 @@
+@import url(./reset.css);
+@import url(./scroll.css);
+
+li {
+  color: #fcf6f5;
+}
+.flex {
+  display: flex;
+}
+.container {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+body {
+  width: 60%;
+  margin: 0 auto;
+}
+/* 상단바 */
+.menu * {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+}
+
+.menu a:active {
+  color: #000;
+  text-decoration: underline;
+}
+
+.menu a:hover {
+  transform: translateY(-10px);
+}
+.menu li {
+  margin: 30px;
+  color: #ffffff;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+.menu li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.menu ul {
+  padding-left: 0px;
+}
+
+/* #about {
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+} */
+
+/* 스크롤당 배경 */
+
+.list:nth-child(2) {
+  background-color: #8aaae5;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#about {
+  background-color: #46d2d2;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#like {
+  background-color: #98ebdc;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#contact {
+  background-color: #b594cd;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* page 1 */
+
+.one {
+  background-size: cover;
+  text-align: center;
+}
+
+.profile {
+  border-radius: 50%;
+  display: inline-block;
+  padding: 0.5rem;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgb(255, 255, 255, 0.5);
+}
+
+.profile img {
+  border-radius: 30%;
+}
+
+.text_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 2rem;
+}
+.text {
+  color: white;
+}
+
+/* page 2 */
+.favorites {
+  display: flex;
+  flex-direction: row;
+}
+.two,
+.three {
+  scroll-snap-type: both;
+  overflow: auto;
+  height: 100%;
+  width: 300vh;
+}
+
+/* page 3 */
+
+.lists {
+  margin: 100px 0 0 50px;
+  text-align: center;
+  font-family: "Gamja Flower", cursive;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  font-style: italic;
+  flex-wrap: wrap;
+  padding: 0 3rem 0 3rem;
+  justify-content: center;
+}
+
+.list_img {
+  width: 24rem;
+  height: 30rem;
+  display: block;
+  margin: 7vh 5vh;
+  margin-bottom: 50px;
+}
+
+.list_text {
+  color: #fff;
+  font-size: 2.3rem;
+}
+
+.favorites {
+  display: inline-flex;
+  margin-top: 60px;
+}
+
+/* page 4 */
+
+.four {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact_img {
+  width: 100%;
+  height: 500px;
+  padding-bottom: 60px;
+}
+
+.ct,
+.ct img {
+  margin-top: 80px;
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  color: #474747;
+  font-size: 30px;
+  font-style: italic;
+  margin: 20px;
+  transition: all 0.4s linear;
+}
+
+.ct img:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+}
+.footer {
+  align-items: center;
+  justify-content: center;
+
+  height: 3rem;
+  bottom: 0;
+  background-color: #bbb;
+  z-index: 100;
+  width: 60%;
+  height: 3.9rem; /* 내용물에 따라 알맞는 값 설정 */
+  position: absolute;
+}

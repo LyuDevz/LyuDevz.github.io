@@ -1,0 +1,22 @@
+body {
+  overflow: hidden;
+  font-family: "Roboto Slab", serif;
+}
+
+/* Scroll down */
+
+#container {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.list {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+}
